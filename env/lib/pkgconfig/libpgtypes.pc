@@ -1,0 +1,9 @@
+Name: libpgtypes
+Description: PostgreSQL libpgtypes library
+Url: http://www.postgresql.org/
+Version: 12.17
+Requires: 
+Requires.private: 
+Cflags: -I/Users/pedrorodrigues/Documents/GitHub/Sales-Data-Analysis/env/include
+Libs: -L/Users/pedrorodrigues/Documents/GitHub/Sales-Data-Analysis/env/lib -lpgtypes
+Libs.private: -L/Users/pedrorodrigues/Documents/GitHub/Sales-Data-Analysis/env/lib -lpgcommon -lpgport -lm

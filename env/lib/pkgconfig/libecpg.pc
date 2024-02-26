@@ -1,0 +1,9 @@
+Name: libecpg
+Description: PostgreSQL libecpg library
+Url: http://www.postgresql.org/
+Version: 12.17
+Requires: 
+Requires.private: libpq libpgtypes
+Cflags: -I/Users/pedrorodrigues/Documents/GitHub/Sales-Data-Analysis/env/include
+Libs: -L/Users/pedrorodrigues/Documents/GitHub/Sales-Data-Analysis/env/lib -lecpg
+Libs.private: -L/Users/pedrorodrigues/Documents/GitHub/Sales-Data-Analysis/env/lib -lpgcommon -lpgport -lm
